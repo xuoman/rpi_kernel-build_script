@@ -1,8 +1,15 @@
 # rpi_kernel-build_script
 kernel build scripts for raspberry pi
-refer to [Kernel building - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/linux/kernel/building.md)
+
+see too
+[Kernel building - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/linux/kernel/building.md)
 
 ## Usage
+## First time
+```
+git clone --depth=1 https://github.com/raspberrypi/linux
+cd linux
+```
 ### Make
 make kernel for pi3 on local build.
 ```
