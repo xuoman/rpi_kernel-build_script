@@ -28,6 +28,7 @@ for OPT in "$@"; do
 			;;
 		"-cc" )
 			CCOPT="ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-"
+			shift 1
 			;;
 		"-h" )
 			echo "	-a [arch]		select architecture from pi/pi2/pi3"

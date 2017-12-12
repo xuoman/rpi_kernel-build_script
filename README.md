@@ -5,7 +5,7 @@ see too
 [Kernel building - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/linux/kernel/building.md)
 
 ## Usage
-## First time
+### First time
 ```
 git clone --depth=1 https://github.com/raspberrypi/linux
 cd linux
