@@ -49,7 +49,7 @@ fi
 if ! [ -d ${INST_PATH}/boot ] || ! [ -d ${INST_PATH}/boot/overlays ]; then
 	mkdir -p ${INST_PATH}/boot/overlays
 fi
-if ! [ -d ${INST_PATH} ] ; then
+if ! [ -d ${INST_PATH}/boot/overlays ] ; then
 	echo "no such directry"
 	exit 1
 fi
